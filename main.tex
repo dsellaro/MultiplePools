@@ -1,0 +1,226 @@
+\documentclass[sigconf]{acmart}
+
+
+\usepackage{booktabs} % For formal tables
+\usepackage{algorithm,algpseudocode}
+\usepackage{blindtext, graphicx}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{epsfig}
+%\usepackage[numbers]{natbib}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage[brazil]{babel}
+
+% Pacotes de algoritmo
+% ---
+%\usepackage{algpseudocode,algorithm}
+%\usepackage[portuguese, ruled, linesnumbered]{algorithm2e}
+%\usepackage[portuguese,ruled,lined]{algorithm2e}
+% --- 
+
+% Copyright
+%\setcopyright{none}
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+\hyphenation{re-pre-sen-ta}
+\hyphenation{ex-pe-ri-men-to}
+\hyphenation{ins-tru-ções}
+\hyphenation{pa-ra-le-lis-mo}
+\hyphenation{mo-de-la-gem}
+\hyphenation{me-lhor}
+\hyphenation{di-fe-ren-tes}
+\hyphenation{e-xe-cu-ção}
+\hyphenation{mo-ni-to-ra-men-to}
+
+% Configurações do pacote algpseudocode
+% 
+%% Declaracoes em Português
+%\algrenewcommand\algorithmicend{\textbf{fim}}
+%\algrenewcommand\algorithmicdo{\textbf{faça}}
+%\algrenewcommand\algorithmicwhile{\textbf{enquanto}}
+%\algrenewcommand\algorithmicfor{\textbf{para}}
+%\algrenewcommand\algorithmicif{\textbf{se}}
+%\algrenewcommand\algorithmicthen{\textbf{então}}
+%\algrenewcommand\algorithmicelse{\textbf{senão}}
+%\algrenewcommand\algorithmicreturn{\textbf{devolve}}
+%\algrenewcommand\algorithmicfunction{\textbf{função}}
+%
+%% Rearranja os finais de cada estrutura
+%\algrenewtext{EndWhile}{\algorithmicend\ \algorithmicwhile}
+%\algrenewtext{EndFor}{\algorithmicend\ \algorithmicfor}
+%\algrenewtext{EndIf}{\algorithmicend\ \algorithmicif}
+%\algrenewtext{EndFunction}{\algorithmicend\ \algorithmicfunction}
+%%
+%----
+
+% DOI
+%\acmDOI{10.475/123_4}
+
+% ISBN
+%\acmISBN{123-4567-24-567/08/06}
+
+%Conference
+\copyrightyear{2017} 
+\acmYear{2017} 
+\setcopyright{acmcopyright}
+\acmConference{SBES'17}{September 20--22, 2017}{Fortaleza, CE, Brazil}\acmPrice{15.00}\acmDOI{10.1145/3131151.3131191}
+\acmISBN{978-1-4503-5326-7/17/09}
+
+
+\begin{document}
+	
+\title{Task Scheduling Optimization on Enterprise Application Integration Platforms Based on the Meta-heuristic Particle Swarm Optimization}
+
+%\titlenote{Produces the permission block, and
+%  copyright information}
+%\subtitle{Extended Abstract}
+%\subtitlenote{The full version of the author's guide is available as
+%  \texttt{acmart.pdf} document}
+
+
+\author{Daniela F. Sellaro}
+%\authornote{Dr.~Trovato insisted his name be first.}
+%\orcid{1234-5678-9012}
+\affiliation{%
+  \institution{Unijuí University}
+  %{Universidade Regional do Noroeste do Estado do Rio Grande do Sul}
+  %\streetaddress{P.O. Box 1212}
+  \city{Ijuí} 
+  \state{RS} 
+  %\postcode{43017-6221}
+}
+\email{dsellaro@unijui.edu.br}
+
+\author{Rafael Z. Frantz}
+%\authornote{The secretary disavows any knowledge of this author's actions.}
+\affiliation{%
+	\institution{Unijuí University}
+	%{Universidade Regional do Noroeste do Estado do Rio Grande do Sul}
+	%\streetaddress{P.O. Box 1212}
+	\city{Ijuí} 
+	\state{RS} 
+	%\postcode{43017-6221}
+}
+\email{rzfrantz@unijui.edu.br}
+
+\author{Inma Hernández}
+\affiliation{%
+	\institution{University of Seville}
+	%  \streetaddress{P.O. Box 5000}}
+%	\city{Sevilha} 
+	\coutry{Espanha} 
+}
+\email{inmahernandez@us.es}
+
+\author{Fabricia Roos-Frantz}
+%\authornote{The secretary disavows any knowledge of this author's actions.}
+\affiliation{%
+	\institution{Unijuí University}
+	%{Universidade Regional do Noroeste do Estado do Rio Grande do Sul}
+	%\streetaddress{P.O. Box 1212}
+	\city{Ijuí} 
+	\state{RS} 
+	%\postcode{43017-6221}
+}
+\email{frfrantz@unijui.edu.br}
+
+\author{Sandro Sawicki}
+\affiliation{%
+	\institution{Unijuí University}
+	%{Universidade Regional do Noroeste do Estado do Rio Grande do Sul}
+	%\streetaddress{P.O. Box 1212}
+	\city{Ijuí} 
+	\state{RS} 
+	%\postcode{43017-6221}
+}
+\email{sawicki@unijui.edu.br}
+
+
+% The default list of authors is too long for headers}
+\renewcommand{\shortauthors}{Daniela F. Sellaro et al.}
+\renewcommand{\shorttitle}{Task Scheduling Optimization on EAI Platforms Based on the Meta-heuristic PSO}
+%\maketitle	
+%----
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+
+%\selectlanguage{brazilian}
+
+\begin{abstract}
+	%-- Context	
+	Companies seek technological alternatives that provide competitiveness for their business processes. Among these alternatives, there are integration platforms that allow you to connect applications to your software ecosystems. These ecosystems are often composed of local applications and cloud computing services, such as SaaS and PaaS, and still, interact with social media.
+	Integration platforms are specialized software that allows you to design, execute and monitor integration solutions, which connect functionality and data from different applications. Integration platforms typically provide a specific domain language, development toolkit, runtime engine, and monitoring tool.
+	% - What is the problem?
+	The efficiency of the engine in scheduling and performing integration tasks has a direct impact on the performance of a solution and this is one of the challenges faced by integration platforms.
+	% - Why is it a problem?
+	Our literature review has identified that integration engines adopt task scheduling algorithms based on the \ textit {First-In-First-Out} discipline, which may be inefficient. Therefore, it is appropriate to seek a task scheduling algorithm that optimizes engine performance, providing a positive impact on the performance of the integration solution in different scenarios.
+	% - Our solution
+	This article proposes an algorithm for task scheduling based on the meta-heuristic optimization technique, which assigns the tasks to the computational resources, considering the waiting time in the queue of ready tasks and the computational complexity of Each task in order to optimize the performance of the integration solution.
+	
+\end{abstract} 
+
+%
+% The code below should be generated by the tool at
+% http://dl.acm.org/ccs.cfm
+% Please copy and paste the code instead of the example below. 
+%
+\begin{CCSXML}
+	<ccs2012>
+	<concept>
+	<concept_id>10011007.10010940.10011003.10011002</concept_id>
+	<concept_desc>Software and its engineering~Software performance</concept_desc>
+	<concept_significance>500</concept_significance>
+	</concept>
+	<concept>
+	<concept_id>10011007.10010940.10010971.10011120.10003100</concept_id>
+	<concept_desc>Software and its engineering~Cloud computing</concept_desc>
+	<concept_significance>300</concept_significance>
+	</concept>
+	<concept>
+	<concept_id>10011007.10010940.10010992.10010993.10010995</concept_id>
+	<concept_desc>Software and its engineering~Real-time schedulability</concept_desc>
+	<concept_significance>100</concept_significance>
+	</concept>
+	</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Software and its engineering~Software performance}
+\ccsdesc[300]{Software and its engineering~Cloud computing}
+\ccsdesc[100]{Software and its engineering~Real-time schedulability}
+
+\keywords{Integrating Enterprise Applications, Optimization, Cloud computing, Runtime System, Task Scheduling Algorithm.}
+
+%\maketitle	
+\input{./src/Resumo}
+%\selectlanguage{english}
+%\input{./src/Abstract}
+%	\selectlanguage{brazilian}
+	\input{./src/Introducao}
+%	\input{./src/Trabalhos_Relacionados}
+	\input{./src/Problema}
+	\input{./src/PSO}
+	\input{./src/Algoritmo}
+	%\input{./src/Agradecimento}
+	\input{./src/Conclusao}
+
+%\bibliographystyle{ACM-Reference-Format}
+%\bibliography{sigproc} 
+
+	\begin{small}
+		\bibliographystyle{abbrvnat}
+		\bibliography{./Bibliography}
+	\end{small}
+	
+\end{document}

@@ -1,0 +1,62 @@
+% mathident.sty v1.0
+%
+% Copyright (c) 2003 by Rafael Corchuelo (corchu@lsi.us.es)
+%
+% Use this package and forget about wrong kerning in multi-letter identifiers in math mode.
+% Just compare the output of $offer$ or $specification$ before and after loading this package!
+
+\NeedsTeXFormat{LaTeX2e}[1995/12/01] \ProvidesPackage{mathident}
+   [2003/1/30 v1.0 Ensure right kerning in multi-letter identifiers in math mode]
+
+\typeout{mathident.sty 2003 (c) Rafael Corchuelo}
+
+\DeclareMathVersion{tdg}
+
+\SetMathAlphabet{\mathrm}{tdg}{\encodingdefault}{\rmdefault}{m}{n}%
+\SetMathAlphabet{\mathbf}{tdg}{\encodingdefault}{\rmdefault}{bx}{n}%
+\SetMathAlphabet{\mathsf}{tdg}{\encodingdefault}{\sfdefault}{m}{n}%
+\DeclareSymbolFont{italics}{\encodingdefault}{\rmdefault}{m}{it}%
+\DeclareSymbolFontAlphabet{\mathrm}{operators}
+\DeclareSymbolFontAlphabet{\mathit}{letters}
+\DeclareSymbolFontAlphabet{\mathcal}{symbols}
+\DeclareSymbolFontAlphabet{\tdgit}{italics}
+\DeclareSymbolFont{lasy}{U}{lasy}{m}{n} \DeclareSymbolFont{AMSa}{U}{msa}{m}{n}
+\DeclareSymbolFont{AMSb}{U}{msb}{m}{n}
+
+\let\mho\undefined \DeclareMathSymbol{\mho}{\mathord}{lasy}{"30}
+\let\Join\undefined \DeclareMathSymbol{\Join}{\mathrel}{lasy}{"31}
+\let\Box\undefined \DeclareMathSymbol{\Box}{\mathord}{lasy}{"32}
+\let\Diamond\undefined \DeclareMathSymbol{\Diamond}{\mathord}{lasy}{"33}
+\let\leadsto\undefined \DeclareMathSymbol{\leadsto}{\mathrel}{lasy}{"3B}
+\let\sqsubset\undefined \DeclareMathSymbol{\sqsubset}{\mathrel}{lasy}{"3C}
+\let\sqsupset\undefined \DeclareMathSymbol{\sqsupset}{\mathrel}{lasy}{"3D}
+\let\lhd\undefined \DeclareMathSymbol{\lhd}{\mathrel}{lasy}{"01}
+\let\unlhd\undefined \DeclareMathSymbol{\unlhd}{\mathrel}{lasy}{"02}
+\let\rhd\undefined \DeclareMathSymbol{\rhd}{\mathrel}{lasy}{"03}
+\let\unrhd\undefined \DeclareMathSymbol{\unrhd}{\mathrel}{lasy}{"04}
+
+\DeclareSymbolFontAlphabet{\mathbb}{AMSb}
+\DeclareSymbolFontAlphabet{\bbold}{AMSb}
+
+\mathversion{tdg}
+
+\def\@setmcodes#1#2#3{%
+    \bgroup%
+        \count0=#1%
+        \count1=#3%
+        \loop%
+            \global\mathcode\count0=\count1%
+            \ifnum \count0<#2%
+                \advance\count0 by 1%
+                \advance\count1 by 1%
+        \repeat%
+    \egroup%
+}
+
+\@setmcodes{`A}{`Z}{"7\hexnumber@\symitalics41}
+\@setmcodes{`a}{`z}{"7\hexnumber@\symitalics61}
+
+
+\endinput
+
+% EOF mathident.sty

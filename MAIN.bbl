@@ -1,0 +1,181 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abraham et~al.(2016)Abraham, King, Rosa, and
+  Schmidt]{abraham2016runtime}
+A.~A. Abraham, G.~M. King, D.~V. Rosa, and D.~W. Schmidt.
+\newblock Runtime capacity planning in a simultaneous multithreading (smt)
+  environment, Aug.~16 2016.
+\newblock US Patent 9,417,927.
+
+\bibitem[Al-maamari and Omara(2015)]{al2015}
+A.~Al-maamari and F.~A. Omara.
+\newblock Task scheduling using pso algorithm in cloud computing environments.
+\newblock \emph{International Journal of Grid and Distributed Computing},
+  8\penalty0 (5):\penalty0 245--256, 2015.
+
+\bibitem[Alexander et~al.(1977)Alexander, Ishikawa, and
+  Silvertein]{alexander1977}
+C.~Alexander, S.~Ishikawa, and M.~Silvertein.
+\newblock \emph{{A pattern language: towns, buildings, construction}}.
+\newblock Oxford University Press, 1977.
+
+\bibitem[AlRashidi and El-Hawary(2009)]{alrashidi2009}
+M.~R. AlRashidi and M.~E. El-Hawary.
+\newblock A survey of particle swarm optimization applications in electric
+  power systems.
+\newblock \emph{IEEE Transactions on Evolutionary Computation}, 13\penalty0
+  (4):\penalty0 913--918, 2009.
+
+\bibitem[Bratton and Kennedy(2007)]{bratton2007}
+D.~Bratton and J.~Kennedy.
+\newblock Defining a standard for particle swarm optimization.
+\newblock In \emph{Swarm Intelligence Symposium, 2007. SIS 2007. IEEE}, pages
+  120--127. IEEE, 2007.
+
+\bibitem[Byun et~al.(2011)Byun, Kee, Kim, and Maeng]{byun2011}
+E.-K. Byun, Y.-S. Kee, J.-S. Kim, and S.~Maeng.
+\newblock Cost optimized provisioning of elastic resources for application
+  workflows.
+\newblock \emph{Future Generation Computer Systems}, 27\penalty0 (8):\penalty0
+  1011--1026, 2011.
+
+\bibitem[Deb et~al.(2002)Deb, Pratap, Agarwal, and Meyarivan]{deb2002}
+K.~Deb, A.~Pratap, S.~Agarwal, and T.~Meyarivan.
+\newblock A fast and elitist multiobjective genetic algorithm: Nsga-ii.
+\newblock \emph{IEEE transactions on evolutionary computation}, 6\penalty0
+  (2):\penalty0 182--197, 2002.
+
+\bibitem[Dietel(2009)]{dietel2009}
+P.~Dietel.
+\newblock \emph{Java how to program}.
+\newblock PHI, 2009.
+
+\bibitem[Dossot et~al.(2014)Dossot, D'Emic, and Romero]{dossot2014}
+D.~Dossot, J.~D'Emic, and V.~Romero.
+\newblock \emph{Mule in action}.
+\newblock Manning, 2014.
+
+\bibitem[Eberhart and Kennedy(1995)]{eberhart1995}
+R.~Eberhart and J.~Kennedy.
+\newblock Particle swarm optimization.
+\newblock In \emph{neural networks, 1995., Proceedings of the IEEE
+  international joint conference on}, pages 1942--1948. IEEE, 1995.
+
+\bibitem[Engelbrecht(2007)]{engelbrecht2007}
+A.~P. Engelbrecht.
+\newblock \emph{Computational intelligence: an introduction}.
+\newblock John Wiley \& Sons, 2007.
+
+\bibitem[FIGUEIREDO(2013)]{figueiredo2013}
+E.~M. d.~N. FIGUEIREDO.
+\newblock Algoritmo baseado em enxame de part{\'\i}culas para
+  otimiza{\c{c}}{\~a}o de problemas com muitos objetivos.
+\newblock 2013.
+
+\bibitem[Fisher et~al.(2012)Fisher, Partner, Bogoevice, and Fuld]{fisher2012}
+M.~Fisher, J.~Partner, M.~Bogoevice, and I.~Fuld.
+\newblock \emph{Spring integration in action}.
+\newblock Manning Publications Co., 2012.
+
+\bibitem[Frantz et~al.(2016)Frantz, Corchuelo, and Roos-Frantz]{frantz2016}
+R.~Z. Frantz, R.~Corchuelo, and F.~Roos-Frantz.
+\newblock On the design of a maintainable software development kit to implement
+  integration solutions.
+\newblock \emph{Journal of Systems and Software}, 111:\penalty0 89--104, 2016.
+
+\bibitem[Fukuyama and Nakanishi(1999)]{fukuyama1999}
+Y.~Fukuyama and Y.~Nakanishi.
+\newblock A particle swarm optimization for reactive power and voltage control
+  considering voltage stability.
+\newblock In \emph{Proc. 11th IEEE Int. Conf. Intell. Syst. Appl. Power Syst},
+  pages 117--121, 1999.
+
+\bibitem[Hohpe(2004)]{hohpe2004}
+B.~Hohpe, Gregor;~Woolf.
+\newblock \emph{{Enterprise integration patterns: Designing, building, and
+  deploying messaging solutions}}.
+\newblock Addison-Wesley Professional, 2004.
+
+\bibitem[Hohpe(2005)]{hohpe2005}
+G.~Hohpe.
+\newblock Your coffee shop doesn't use two-phase commit [asynchronous messaging
+  architecture].
+\newblock \emph{IEEE software}, 22\penalty0 (2):\penalty0 64--66, 2005.
+
+\bibitem[Ibsen(2010)]{isen2010}
+J.~Ibsen, Claus \&~Anstey.
+\newblock \emph{Camel in action}.
+\newblock Manning Publications Co., 2010.
+
+\bibitem[Indrasiri(2016)]{indrasiri2016}
+K.~Indrasiri.
+\newblock \emph{Introduction to WSO2 ESB}.
+\newblock Springer, 2016.
+
+\bibitem[Lazinica(2009)]{lazinica2009}
+A.~Lazinica.
+\newblock \emph{Particle swarm optimization}.
+\newblock InTech Kirchengasse, 2009.
+
+\bibitem[Ourique et~al.(2002)Ourique, Biscaia, and Pinto]{ourique2002}
+C.~O. Ourique, E.~C. Biscaia, and J.~C. Pinto.
+\newblock The use of particle swarm optimization for dynamical analysis in
+  chemical processes.
+\newblock \emph{Computers \& Chemical Engineering}, 26\penalty0 (12):\penalty0
+  1783--1793, 2002.
+
+\bibitem[Pandey et~al.(2010)Pandey, Wu, Guru, and Buyya]{pandey2010}
+S.~Pandey, L.~Wu, S.~M. Guru, and R.~Buyya.
+\newblock A particle swarm optimization-based heuristic for scheduling workflow
+  applications in cloud computing environments.
+\newblock In \emph{Advanced information networking and applications (AINA),
+  2010 24th IEEE international conference on}, pages 400--407. IEEE, 2010.
+
+\bibitem[Rodriguez and Buyya(2014)]{rodriguez2014}
+M.~A. Rodriguez and R.~Buyya.
+\newblock Deadline based resource provisioningand scheduling algorithm for
+  scientific workflows on clouds.
+\newblock \emph{IEEE Transactions on Cloud Computing}, 2\penalty0 (2):\penalty0
+  222--235, 2014.
+
+\bibitem[Russell and Cohn(2012)]{russell2012}
+J.~Russell and R.~Cohn.
+\newblock \emph{Fuse Esb}.
+\newblock Book on Demand, 2012.
+\newblock ISBN 9785510817041.
+
+\bibitem[Sellaro(2017)]{sellaro2017}
+D.~F. Sellaro.
+\newblock Particle swarm optimization para agendamento de tarefas na
+  integra{\c{c}}{\~a}o de aplica{\c{c}}{\~o}es empresariais.
+\newblock \emph{V SFCT}, 14, 2017.
+
+\bibitem[Sousa et~al.(2004)Sousa, Silva, and Neves]{sousa2004}
+T.~Sousa, A.~Silva, and A.~Neves.
+\newblock Particle swarm based data mining algorithms for classification tasks.
+\newblock \emph{Parallel Computing}, 30\penalty0 (5):\penalty0 767--783, 2004.
+
+\bibitem[Tanenbaum(2009)]{tanebaum2009}
+A.~Tanenbaum.
+\newblock \emph{Modern operating systems}.
+\newblock Pearson Education, Inc., 2009.
+
+\bibitem[Van Den~Bergh and Engelbrecht(2006)]{van2006}
+F.~Van Den~Bergh and A.~P. Engelbrecht.
+\newblock A study of particle swarm optimization particle trajectories.
+\newblock \emph{Information sciences}, 176\penalty0 (8):\penalty0 937--971,
+  2006.
+
+\bibitem[Wu et~al.(2010)Wu, Ni, Gu, and Liu]{wu2010}
+Z.~Wu, Z.~Ni, L.~Gu, and X.~Liu.
+\newblock A revised discrete particle swarm optimization for cloud workflow
+  scheduling.
+\newblock In \emph{Computational Intelligence and Security (CIS), 2010
+  International Conference on}, pages 184--188. IEEE, 2010.
+
+\end{thebibliography}

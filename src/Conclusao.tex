@@ -1,0 +1,6 @@
+%==============================================================================
+\section{Conclus\~{a}o}
+\label{sec:conclusao}
+%============================================================================== 
+A eficiência dos motores de execução das plataformas de integração está diretamente relacionado com o algoritmo de agendamento das tarefas e a alocação de \emph{threads} para executá-las. Um algoritmo ineficiente leva a um aumento do tempo de execução, degradando assim o desempenho das soluções de integração. Este artigo propõe um algoritmo baseado na meta-heurística \textit{Particle Swarm Optimization} para a alocação de \emph{threads} em motores de execução baseados em filas FIFO. O algoritmo proposto atribui \emph{threads} para as tarefas considerando a complexidade computacional da tarefa e a heterogeneidade na capacidade computacional das \emph{threads}. 
+Apesar do PSO localizar de forma rápida a região das boas soluções, é lento no ajuste fino da solução, como acontece em outras técnicas, como no caso dos algoritmos genéticos. Como trabalho futuro, pretende-se implementar esse algoritmo em um motor de execução da plataforma Guaraná para avaliar o ganho de desempenho com distintos casos de uso.
