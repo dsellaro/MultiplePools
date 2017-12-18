@@ -126,7 +126,7 @@ A.~Lazinica.
 C.~O. Ourique, E.~C. Biscaia, and J.~C. Pinto.
 \newblock The use of particle swarm optimization for dynamical analysis in
   chemical processes.
-\newblock \emph{Computers \& Chemical Engineering}, 26\penalty0 (12):\penalty0
+\newblock \emph{Computers Chemical Engineering}, 26\penalty0 (12):\penalty0
   1783--1793, 2002.
 
 \bibitem[Pandey et~al.(2010)Pandey, Wu, Guru, and Buyya]{pandey2010}
@@ -138,7 +138,7 @@ S.~Pandey, L.~Wu, S.~M. Guru, and R.~Buyya.
 
 \bibitem[Rodriguez and Buyya(2014)]{rodriguez2014}
 M.~A. Rodriguez and R.~Buyya.
-\newblock Deadline based resource provisioningand scheduling algorithm for
+\newblock Deadline based resource provisioning and scheduling algorithm for
   scientific workflows on clouds.
 \newblock \emph{IEEE Transactions on Cloud Computing}, 2\penalty0 (2):\penalty0
   222--235, 2014.
